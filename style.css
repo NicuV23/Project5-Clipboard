@@ -5,13 +5,13 @@
   padding: 0;
 }
 
-.hdesktop {
+.headerback {
   width: 100%;
   position: absolute;
   height: 350px;
 }
 
-.inside {
+.headerinside {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -227,13 +227,13 @@ p {
   margin-bottom: 180px;
 }
 
-.for p {
+.foriOS.Mac p {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.for h1 {
+.foriOS.Macs h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 19px;
