@@ -89,6 +89,29 @@ p {
   justify-content: center;
 }
 
+.buttons2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.btn1,
+.btn2 {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn2:hover {
+  background-color: black;
+}
+
+.btn1:hover {
+  background-color: black;
+}
+
 .secondh {
   margin-top: 150px;
   font-size: 32px;
@@ -216,35 +239,12 @@ p {
   margin-bottom: 19px;
 }
 
-.buttons2 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 120px;
-}
-
-.btn1,
-.btn2 {
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.btn2:hover {
-  background-color: black;
-}
-
-.btn1:hover {
-  background-color: black;
-}
-
 .down {
   box-sizing: border-box;
   background-color: rgb(238, 238, 238);
 }
 
-.downc {
+.downcontent {
   display: flex;
   align-items: center;
   flex-direction: row;
